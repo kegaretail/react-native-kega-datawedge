@@ -16,7 +16,8 @@ const BarcodeScanner = (() => {
             return eventEmitter.addListener('onBarcode', callback);
         },
 
-        read: ({ types =  null }) => {
+        read: (params) => {
+            const { types =  null } = params || {};
             BarcodeModule.read({ types });
         },
 
