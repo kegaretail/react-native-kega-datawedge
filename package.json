@@ -8,6 +8,11 @@
     "keywords": [],
     "license": "ISC",
     "main": "./src/index.js",
+    "files": [
+      "src",
+      "README.md",
+      "BARCODE_TYPES.md"
+    ],
     "exports": {
       ".": "./*",
       "./package.json": "./package.json"
@@ -26,8 +31,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.0.4",
-    "packageManager": "yarn@3.6.4",
+    "version": "0.0.1",
     "peerDependencies": {
       "react": "*",
       "react-native": "*"
