@@ -5,9 +5,9 @@ A React Native module for integrating with Zebra DataWedge on Android devices.
 ## Installation
 
 ```bash
-npm install react-native-datawedge
+npm install react-native-kega-datawedge
 # or
-yarn add react-native-datawedge
+yarn add react-native-kega-datawedge
 ```
 
 ## Usage
