@@ -11,9 +11,8 @@ function App() {
 
         const onBarcodeEvent = BarcodeScanner.onBarcode((data) => {
             console.log('onBarcode', data)
-
         })
-        console.log('##################################################')
+
         BarcodeScanner.read({ types: [ 'QR' ] });
 
         return () => {
